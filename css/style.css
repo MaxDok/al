@@ -1,0 +1,148 @@
+body{
+    font-family: 'Arsenal', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* menu */
+.menu-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    margin-right: 30px;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    transition: all .5s;
+}
+.nav-link:hover{
+    color: #C02221;
+}
+.nav-link:last-child{
+    margin-right: 0;
+}
+.menu-tel{
+    color: #C02221;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.fon{
+    background: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* soc */
+.soc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.soc-text{
+    text-align: center;
+}
+.soc-text_title{
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 43px;
+}
+.soc-text_title:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: #C02221;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+.soc-text_subtitle{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #C02221;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 29px 37px 22px 37px;
+}
+.form-title{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 27px;
+}
+.form-title>span{
+    color: #C02221;
+}
+.in{
+    border: 1px solid #C02221;
+    margin-bottom: 21px;
+    padding: 6px;
+}
+.sub{
+    width: 218px;
+    height: 52px;
+    margin: auto;
+    cursor: pointer;
+    background: #C02221;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .5s;
+    outline: none;
+}
+.sub:hover{
+    color: #C02221;
+    border: 1px solid #C02221;;
+    background: #fff;
+}
+
+
+.element{
+	width: 100px;
+	height: 55px;
+	background: rgba(192, 34, 33, 0.1);
+    transform: rotate(49.63deg);    
+    position: absolute;
+    left: 45%;
+    top: 50%; 
+}
+.element:before {
+	content: "";
+	position: absolute;
+	top: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid rgba(192, 34, 33, 0.1);
+}
+.element:after {
+	content: "";
+	position: absolute;
+	bottom: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid rgba(192, 34, 33, 0.1);
+}
